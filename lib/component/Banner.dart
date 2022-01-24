@@ -18,6 +18,13 @@ class _BannerWidgetState extends State<BannerWidget> {
       color: const Color(0xff060928),
       child: Row(
         children: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            icon: Icon(Icons.arrow_back_ios),
+            color: Colors.white,
+          ),
           Container(
             width: 50,
             height: 50,
