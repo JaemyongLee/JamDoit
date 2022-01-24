@@ -25,6 +25,7 @@ class CategoryPage extends StatelessWidget {
           ),
           Expanded(
             child: PageView.builder(
+                itemCount: cardImgUris.length,
                 controller: PageController(
                   viewportFraction: 0.8,
                   initialPage: 0,
