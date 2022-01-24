@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jm_promise/component/Banner.dart';
-import 'package:jm_promise/component/PromiseCard.dart';
 
 List<String> workCards = [
   'assets/worker/1.jpg',
-  'assets/worker/2.jpg'
+  'assets/worker/2.jpg',
   'assets/worker/3.jpg',
   'assets/worker/4.jpg',
   'assets/worker/5.jpg',
