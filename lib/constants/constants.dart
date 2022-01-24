@@ -96,7 +96,7 @@ List<String> financeCards = [
 ];
 
 BannerWidget financeBanner = BannerWidget(
-    Image.asset('assets/safe.png', fit: BoxFit.cover), "부동산/금융 정책 알아보기");
+    Image.asset('assets/finance.png', fit: BoxFit.cover), "부동산/금융 정책 알아보기");
 
 List<String> locationCards = [
   'assets/location/1.jpg',
