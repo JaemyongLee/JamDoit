@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:jm_promise/component/Banner.dart';
 import 'package:jm_promise/component/PromiseCard.dart';
 
 class CategoryPage extends StatelessWidget {
   List<String> cardImgUris;
-  BannerWidget banner;
+  Widget banner;
   CategoryPage(this.cardImgUris, this.banner);
 
   @override

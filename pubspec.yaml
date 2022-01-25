@@ -1,8 +1,6 @@
 name: jm_promise
 description: A new Flutter project.
-
-
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
@@ -12,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  vertical_card_pager: ^1.5.0
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +28,7 @@ flutter:
     - assets/safe/
     - assets/finance/
     - assets/location/
+  fonts:
+    - family: "Dohyun"
+      fonts:
+        - asset: fonts/DoHyeon-Regular.ttf
